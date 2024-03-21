@@ -39,6 +39,10 @@
       "type": "string",
       "description": "Package version."
     },
+    "aio_version": {
+      "type": "string",
+      "description": "testing prop."
+    },
     "description": {
       "type": "string",
       "description": "Short package description.",
