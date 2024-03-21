@@ -39,10 +39,6 @@
       "type": "string",
       "description": "Package version."
     },
-    "aio_version": {
-      "type": "string",
-      "description": "testing prop."
-    },
     "description": {
       "type": "string",
       "description": "Short package description.",
@@ -396,6 +392,10 @@
         "branch": {
           "type": "string",
           "description": "The branch to checkout."
+        },
+        "aio_version": {
+          "type": "string",
+          "description": "testing prop."
         },
         "tag": {
           "type": "string",
