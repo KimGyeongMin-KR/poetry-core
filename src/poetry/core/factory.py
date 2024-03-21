@@ -282,6 +282,7 @@ class Factory:
                     develop=constraint.get("develop", False),
                     extras=constraint.get("extras", []),
                 )
+                p
             elif "file" in constraint:
                 file_path = Path(constraint["file"])
 
